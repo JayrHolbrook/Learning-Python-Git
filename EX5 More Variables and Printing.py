@@ -1,18 +1,18 @@
-name = 'Zed A. Shaw'
-age = 35 # not a lie
-height = 74 # inches
-weight = 180 # lbs
-eyes = 'Blue'
-teeth = 'White'
-hair = 'Brown'
+my_name = 'Zed A. Shaw'
+my_age = 35 # not a lie
+my_height = 74 # inches
+my_weight = 180 # lbs
+my_eyes = 'Blue'
+my_teeth = 'White'
+my_hair = 'Brown'
 
-print "Lets talk about %s" % name
-print "He's %d inches tall." % height
-print "he's %d pounds heavy." % weight
-print "Actually thats's not too heavy"
-print "He's got %s eyes and %s hair." % (eyes, hair)
-print "His teeth are usually %s depending on the coffee." % teeth
+print (f"Let's talk about {my_name}.")
+print (f"He's {my_height} inches tall.")
+print (f"he's {my_weight} pounds heavy.")
+print ("Actually thats's not too heavy")
+print (f"He's got {my_eyes} eyes and {my_hair} hair.")
+print (f"His teeth are usually {my_teeth} depending on the coffee.")
 
 # this line is tricky, try to get it exactly right
-print "If I add %d, %d, and %d id get %d." % (
-age, height, weight, age + height + weight)
+total = my_age + my_height + my_weight
+print (f"If I add {my_age}, {my_height}, and {my_weight} id get {total}.")
